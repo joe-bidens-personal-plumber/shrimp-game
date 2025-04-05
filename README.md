@@ -1,3 +1,3 @@
-Minimal base ruleset for Unciv, so people can start somewhere and gradually expand
+a game.
 
 Based on https://github.com/AdelleStuuu/Adelle-Corp
