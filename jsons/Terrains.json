@@ -1,10 +1,40 @@
 [
-	{
-		"name": "Grassland",
+  {
+		"name": "Ocean",
+		"type": "Land",
+		"food": 1,
+		"production": 1,
+		"movementCost": 1,
+		"RGB": [0, 20, 255]
+	},
+  {
+		"name": "Coast",
 		"type": "Land",
 		"food": 2,
+		"culture": 1,
 		"movementCost": 1,
-        "RGB": [0, 163, 0],
-        "uniques": []
-    }
+		"RGB": [20, 100, 255]
+	},
+  {
+    "name": "Grassland",
+    "impassible": true,
+    "type": "Water",
+    "movementCost": 2,
+    "RGB": [0, 255, 0],
+    "uniques": [
+        "Units ending their turn on this terrain take [5] damage",
+        "Considered [Undesirable] when determining start locations"
+    ]
+  },
+  {
+    "name": "Desert",
+    "impassible": true,
+    "type": "Water",
+    "movementCost": 2,
+    "RGB": [255, 255, 75],
+    "uniques": [
+        "Units ending their turn on this terrain take [10] damage",
+        "Considered [Undesirable] when determining start locations"
+    ]
+  }
 ]
